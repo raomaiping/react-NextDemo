@@ -27,6 +27,8 @@ const Home=()=>{
   // Router.events.on('hashChangeComplete',(...arsg)=>{
   //   console.log('6.hashChangeComplete->，参数为:',...arsg);
   // })
+
+
   function gotoXiaojiejie(){
     // Router.push('/xiaojiejie?name=苍井空')
     Router.push({

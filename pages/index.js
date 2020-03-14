@@ -9,24 +9,24 @@ const Home=()=>{
   //routeChangeError
   //hashChangeStart
   //hashChangeComplete
-  Router.events.on('routeChangeStart',(...arsg)=>{
-    console.log('1.routeChangeStart->路由开始变化，参数为:',...arsg);
-  })
-  Router.events.on('routeChangeComplete',(...arsg)=>{
-    console.log('2.routeChangeComplete->路由变化结束，参数为:',...arsg);
-  })
-  Router.events.on('beforeHistoryChange',(...arsg)=>{
-    console.log('3.beforeHistoryChange->路由变化结束，参数为:',...arsg);
-  })
-  Router.events.on('routeChangeError',(...arsg)=>{
-    console.log('4.routeChangeError->路由发生错误，参数为:',...arsg);
-  })
-  Router.events.on('hashChangeStart',(...arsg)=>{
-    console.log('5.hashChangeStart->，参数为:',...arsg);
-  })
-  Router.events.on('hashChangeComplete',(...arsg)=>{
-    console.log('6.hashChangeComplete->，参数为:',...arsg);
-  })
+  // Router.events.on('routeChangeStart',(...arsg)=>{
+  //   console.log('1.routeChangeStart->路由开始变化，参数为:',...arsg);
+  // })
+  // Router.events.on('routeChangeComplete',(...arsg)=>{
+  //   console.log('2.routeChangeComplete->路由变化结束，参数为:',...arsg);
+  // })
+  // Router.events.on('beforeHistoryChange',(...arsg)=>{
+  //   console.log('3.beforeHistoryChange->路由变化结束，参数为:',...arsg);
+  // })
+  // Router.events.on('routeChangeError',(...arsg)=>{
+  //   console.log('4.routeChangeError->路由发生错误，参数为:',...arsg);
+  // })
+  // Router.events.on('hashChangeStart',(...arsg)=>{
+  //   console.log('5.hashChangeStart->，参数为:',...arsg);
+  // })
+  // Router.events.on('hashChangeComplete',(...arsg)=>{
+  //   console.log('6.hashChangeComplete->，参数为:',...arsg);
+  // })
   function gotoXiaojiejie(){
     // Router.push('/xiaojiejie?name=苍井空')
     Router.push({
